@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/img"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="About Us"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            android:id="@+id/btn_AboutUs"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Help"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            android:id="@+id/btn_help"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Contact Us"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Send Feedback"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Your Favourites"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Report"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Rate Us on google pay"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Your Transaction"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Payment Options"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:text="Sign Out"
+            android:id="@+id/btn_SignOut"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    </LinearLayout>
+
+</ScrollView>
